@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		31AD5EB82B318E5800C3D73D /* PINOperation.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31AD5EB72B318E5700C3D73D /* PINOperation.xcframework */; };
-		31AD5EB92B318E5800C3D73D /* PINOperation.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 31AD5EB72B318E5700C3D73D /* PINOperation.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		320117C524444E3C004FD783 /* PINCaching.h in Headers */ = {isa = PBXBuildFile; fileRef = 6928EED21E4160EE00B5D975 /* PINCaching.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		320117C624444E3D004FD783 /* PINCache.h in Headers */ = {isa = PBXBuildFile; fileRef = CC0106051E271A9000890935 /* PINCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		320117C724444E3D004FD783 /* PINCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0106061E271A9000890935 /* PINCache.m */; };
@@ -92,17 +91,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		31AD5EBA2B318E5800C3D73D /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				31AD5EB92B318E5800C3D73D /* PINOperation.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		687BB55C1E52818B005D70C6 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -399,7 +387,6 @@
 				CC0105AD1E271A1600890935 /* Frameworks */,
 				CC0105AE1E271A1600890935 /* Headers */,
 				CC0105AF1E271A1600890935 /* Resources */,
-				31AD5EBA2B318E5800C3D73D /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
